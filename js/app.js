@@ -26,16 +26,12 @@ $(document).ready(function(){
 
 	$("body").keydown(function(event){
 		if(event.which == 88) {
-			console.log("The x key was pressed");
           $(".ryu-cool").show();
-          $(".ryu-still").hide();
-          $(".ryu-ready").hide(); 
 		}
 	}).keyup(function(event){
 		console.log("The x key was released");
 		if(event.which == 88){
           $(".ryu-cool").hide();
-          $(".ryu-still").show();
       }
 	});
 

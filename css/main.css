@@ -20,6 +20,9 @@ main{
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width:659px;
 	height:494px;
+	position:absolute;
+	left:0;
+	top:0;
 }
 
 .ryu-ready, .ryu-throwing, .ryu-cool {
@@ -39,6 +42,8 @@ main{
 }
 .ryu-cool {
 	background-image: url('../images/ryu-cool.gif');
+	background-color:#fff;
+	z-index:10;
 }
 
 .hadouken {
